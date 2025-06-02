@@ -1,0 +1,7 @@
+services:
+  - type: static
+    name: Imagify
+    rootDir: client
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    env:node
